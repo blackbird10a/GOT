@@ -1,5 +1,6 @@
 @import "settings";
 @import "foundation";
+@import url(http://fonts.googleapis.com/css?family=Libre+Baskerville);
 
 // Or selectively include components
 // @import
@@ -38,3 +39,124 @@
 //   "foundation/components/type",
 //   "foundation/components/offcanvas",
 //   "foundation/components/visibility";
+
+body {
+	background:url('../images/main-background.png') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+}
+
+body#lannister {
+    background:url('../images/lannister.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+}
+body#baratheon {
+    background:url('../images/baratheon.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+}
+body#stark {
+    background:url('../images/stark.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+}
+body#greyjoy {
+    background:url('../images/greyjoy.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+}
+body#targaryen {
+    background:url('../images/targaryen.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+}
+h1{
+color:white;
+    font-family: Georgia;
+    
+
+}
+
+
+h1.lann{
+    color: #F7EF03;
+    text-align: center;
+    font-size: 300%;
+    font-family:Libre Baskerville;
+}
+
+h1.bara{
+    color: purple;
+    text-align: center;
+    font-size: 300%;
+    font-family:Libre Baskerville;
+}
+
+h1.grey{
+    color: grey;
+    text-align: center;
+    font-size: 300%;
+    font-family:Libre Baskerville;
+}
+
+h1.targ{
+    color: black;
+    text-align: center;
+    font-size: 300%;
+    font-family:Libre Baskerville;
+}
+
+h1.stark{
+    color: white;
+    text-align: center;
+    font-size: 300%;
+    font-family:Libre Baskerville;
+}
+.family-title{
+    border: 10px outset white;
+    background-color: rgba(241,41,58,0.8);
+    border-radius:10px;
+    padding: 15px;
+    margin: 1% auto auto 1%;
+    width:600px;
+}
+
+#characters{
+    border-radius:15px; 
+    border: outset 5px;
+    background-color: rgba(255, 0, 0, 0.7);
+    height:600px;
+    width:15%;
+float: left;
+    color:white;
+    
+
+}
+  #characters p{
+    color: white !important;
+       font-size:200%;
+      font-family: Georgia;
+    }
+
+text{
+    color: aquamarine !important;
+    font-size:150%;
+    font-family: Georgia;
+    text-align: center;
+ }
+
+.Content{
+width: 60%;
+    border-radius: 20px;
+    border: outset 7px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    background-color: rgba(255, 0, 0, 0.7);
+    text-align: center;
+    color:white;
+}
+
+.Content-lan{
+width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    background-color: rgba(255, 0, 0, 0.7);
+    text-align: center;
+}

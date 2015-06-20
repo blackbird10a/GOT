@@ -1,0 +1,29 @@
+body {
+	background:url('http://wallorg.com/wp-content/uploads/2015/04/game_of_thrones_wallpaper_background_hd_8.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+}
+h1{
+    color:floralwhite;
+    text-align: center;
+    font-size: 300%;
+    font-family: Georgia;
+    
+}
+#characters{
+background-color: rgba(255, 0, 0, 0.7);
+    height:600px;
+    width:300px;
+float: left
+    
+
+}
+   #characters p{
+    color: white;
+       font-size: 150%;
+    }
+
+#lannister-crest{
+width:100%;
+    height:auto;
+    
+}
